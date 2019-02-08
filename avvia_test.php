@@ -78,6 +78,9 @@ $nome_autore = $_SESSION['nomeaut'];
     <div class="col">
     
     <form action="avvia_test1.php" method="POST">
+    <input type="hidden" name="nome_autore" value="<?php echo $nome_autore;?>" />
+
+    
     <button type="submit" class="btn btn-primary"> <i class="fas fa-play"></i> Avvia il test </button>
     
     

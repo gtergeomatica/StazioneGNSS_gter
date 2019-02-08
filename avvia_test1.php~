@@ -40,11 +40,11 @@ echo "Sending HTTP HEAD request...";
 socket_write($socket, $nome_autore, strlen($nome_autore));
 echo "OK.\n";
 
-#echo "Reading response:\n\n";
-#while ($out = socket_read($socket, 1024)) {
-#    echo $out;
-#}
-#exit;
+echo "Reading response:\n\n";
+while ($out = socket_read($socket, 1024)) {
+    echo $out;
+}
+exit;
 echo "Closing socket...";
 socket_close($socket);
 echo "OK.\n\n";
