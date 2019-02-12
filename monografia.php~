@@ -50,44 +50,57 @@
         <title></title>
     </head>
     <body>
-	<div class="container"  style="background-color: #e3f2fd;">
+	<div class="container"style="background-color:#e3f2fd;">
 
     
-      <div style="text-align: center;"> <h1> Costruisci la tua stazione </h1></div>
-      
-      <div style="text-align: center;"> <h3> Pagina in manutenzione </h3></div>
-        
-<article>
-Di cosa hai bisogno:
-
-<ul>
-<li> <a href="https://www.amazon.it/ABOX-Raspberry-Barebone-Custodia-Interruttore/dp/B07DC128P2/ref=sr_1_5?ie=UTF8&qid=1549366193&sr=8-5&keywords=raspberry+pi+3" target="_blank"> Raspberry Pi 3 </a></li>
-<li> Ricevitore GNSS (ad esempio <a href="https://www.u-blox.com/en/product/neolea-m8t-series" target="_blank"> ublox neo M8T </a> )</li>
-<li> Un'antenna (ad esempio <a href="http://www.tallysman.com/index.php/gnss/products/antennas-gpsbeidougalileoglonass/tw4721/drawings/" target="_blank"> Tallysman TW4721  </a> )</li>
-
-</ul>
-
-
-
-
-</article>        
-        
-        
-        
-<div style="text-align: center;">     	<img src="img/lavori_in_corso.png" width="200" alt="" vspace="30"> </div>
-       
-   
-    
-    
-    
-    <br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
-       		<br><div class="row">  </div>
-       
-       </div>   
+      <div style="text-align: center;"> <h1> Monografia della stazione </h1></div>
+      <br><div class="row" >
+      <div class="col">
+		Antenna 1 (Tallisman)
+		<br> Ricevitore 1 (ublox neo m8t)
+		
+		<table class="table">
+  		<thead>
+    	<tr>
+      <th scope="col"> </th>
+      <th scope="col"> Cooordinate Geografiche RDN
+<br>(ETRF2000): </th>
+      <th scope="col"> Coordinate Gauss - Boaga
+      <br> (Fuso ovest): </th>
+      <th scope="col">Coordinate Geografiche IGS05
+<br>(ETRF2005):</th>
+   	</tr>
+  		</thead>
+  <tbody>
+    <tr>
+      <th scope="row">LAT</th>
+      <td> disponibili a breve </td>
+      <td> disponibili a breve </td>
+      <td> disponibili a breve </td>
+      </tr>
+  <tr>
+      <th scope="row">LON</th>
+      </tr>
+	  <tr>
+      <th scope="row">QUOTA</th>
+      </tr>
+        </tbody>
+</table>
+      	      
       </div>
-     
-              
-  <!-- Footer -->
+       <div class="col">
+<div style="text-align: center;">      <iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.96281197667122%2C44.40001079439414%2C8.964300602674486%2C44.40056845386675&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=20/44.40029/8.96356&amp;layers=H">Visualizza mappa ingrandita</a></small></div>
+      </div>
+      
+      
+    </div>   
+    
+    <div style="text-align: center;"> <button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>    </div>
+           		<br><div class="row">  </div>
+               
+    </div>
+    
+    <!-- Footer -->
 <footer class="page-footer font-small">
 
     <!-- Footer Elements -->
@@ -142,14 +155,10 @@ Di cosa hai bisogno:
   </div>
   </footer>
   <!-- Footer -->
-
-   
-  
+ 
     
-
-    
-     </body>
-</html>
+   </body> 
+  </html>
 
 
 <?php

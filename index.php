@@ -51,9 +51,8 @@
         <title></title>
     </head>
     <body>
-	<div class="container">
-		
-		<!-- <div class="row"> -->
+	<div class="container" style="background-color: #e3f2fd;">
+	 <!-- <div class="row"> -->
 		<!-- <div class="col-2"> </div> -->
 	<!-- 	<div class="col-8"> -->
 
@@ -90,46 +89,50 @@
      </div>
    <div class="row">
 		<div class="col">
-<div style="text-align: center;">		<a href="https://www.gter.it/" target="_blank"><img src="./img/Gter_logo.png" width="250" hspace="100" alt="" > </a> <a href="https://www.dibris.unige.it/" target="_blank"><img src="./img/Dibris_orizzontale.jpg" width="450" hspace="100" alt="" >  </a>  </div>
+<div style="text-align: center;">		<a href="https://www.gter.it/" target="_blank"><img src="./img/Gter_logo.png" width="250" hspace="100" alt="" > </a> <a href="https://www.dibris.unige.it/" target="_blank"><img src="./img/Dibris_orizzontale.png" width="450" hspace="100" alt="" >  </a>  </div>
       </div>
       
     </div>   
     </div>
     
     
-  <footer class="page-footer font-small cyan darken-3">
+  <!-- Footer -->
+<footer class="page-footer font-small">
 
     <!-- Footer Elements -->
-    <div class="container">
+    <div class="container"style="background-color:#bcd1de;">
 
       <!-- Grid row-->
-      <div class="row">
+      <br><div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-12 py-5">
-          <div class="mb-5 flex-center">
+        <div class="col">
+          <div class="flex-center align-middle">
 
             <!-- Facebook -->
-<div style="text-align: center;">            <a href="https://www.facebook.com/Gteronline" target="_blank">
-              <img src="./img/facebook.png" height="30" hspace="50" alt="errore: non carica immagine">
+            <div style="text-align: center;"><a class="fb-ic" href="https://www.facebook.com/Gteronline" target="_blank">
+            <img src="./img/facebook.png" height="30" hspace="50" alt="errore: non carica immagine"> 
             </a>
             <!-- Twitter -->
-            <a href="https://twitter.com/Gteronline" target="_blank">
-              <img src="./img/twitter.png" height="30" hspace="50"alt="errore: non carica immagine">
+            <a class="tw-ic"href="https://twitter.com/Gteronline" target="_blank" >
+             <img src="./img/twitter.png" height="30" hspace="50"alt="errore: non carica immagine"> 
             </a>
             <!-- Google +-->
-            <a href="https://plus.google.com/+GterIt" target="_blank">
+            <a class="gplus-ic"href="https://plus.google.com/+GterIt" target="_blank">
               <img src="./img/googleplus.png" height="30" hspace="50" alt="errore: non carica immagine">
             </a>
             <!--Linkedin -->
-            <a href="https://www.linkedin.com/company/gter-srl-innovazione-in-geomatica-gnss-e-gis/" target="_blank">
-              <img src="./img/linkedin.png" height="30" hspace="50" alt="errore: non carica immagine">
+            <a class="li-ic"href="https://www.linkedin.com/company/gter-srl-innovazione-in-geomatica-gnss-e-gis/" target="_blank">
+               <img src="./img/linkedin.png" height="30" hspace="50" alt="errore: non carica immagine">
+            </a>
+            <!--Github-->
+            <a class="git-ic" href="https://github.com/gtergeomatica/StazioneGNSS_gter" target="_blank" >
+              <img src="./img/github.png" height="30"  hspace="50"alt="errore: non carica immagine">
             </a>
             <!--Slideshare-->
-            <a href="https://www.slideshare.net/rmarzocchi84" target="_blank">
+            <a class="pin-ic"href="https://www.slideshare.net/rmarzocchi84" target="_blank">
               <img src="./img/Slideshare.png" height="30"  hspace="50"alt="errore: non carica immagine">
-            </a>
-            </div>
+            </a></div>
           </div>
         </div>
         <!-- Grid column -->
@@ -137,7 +140,7 @@
       </div>
       <!-- Grid row-->
 
-    </div>
+  
     <!-- Footer Elements -->
 
     <!-- Copyright -->
@@ -145,8 +148,9 @@
       <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
-
+  </div>
   </footer>
+  <!-- Footer -->
 
     
     

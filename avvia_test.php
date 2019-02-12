@@ -52,7 +52,7 @@ $nome_autore = $_SESSION['nomeaut'];
         <title></title>
     </head>
     <body>
-	<div class="container">
+	<div class="container" style="background-color: #e3f2fd;">
 
     
     <div style="text-align: center;">    <h1> Avvia il test  </h1></div>
@@ -89,15 +89,77 @@ $nome_autore = $_SESSION['nomeaut'];
     <div class="col"> </div>
     </div>    
         
+    
+              	<br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
+       		<br><div class="row">  </div>
+       
+       </div>   
+      
+              
+  <!-- Footer -->
+<footer class="page-footer font-small">
+
+    <!-- Footer Elements -->
+    <div class="container"style="background-color:#bcd1de;">
+
+      <!-- Grid row-->
+      <br><div class="row">
+
+        <!-- Grid column -->
+        <div class="col">
+          <div class="flex-center align-middle">
+
+            <!-- Facebook -->
+            <div style="text-align: center;"><a class="fb-ic" href="https://www.facebook.com/Gteronline" target="_blank">
+            <img src="./img/facebook.png" height="30" hspace="50" alt="errore: non carica immagine"> 
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic"href="https://twitter.com/Gteronline" target="_blank" >
+             <img src="./img/twitter.png" height="30" hspace="50"alt="errore: non carica immagine"> 
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic"href="https://plus.google.com/+GterIt" target="_blank">
+              <img src="./img/googleplus.png" height="30" hspace="50" alt="errore: non carica immagine">
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic"href="https://www.linkedin.com/company/gter-srl-innovazione-in-geomatica-gnss-e-gis/" target="_blank">
+               <img src="./img/linkedin.png" height="30" hspace="50" alt="errore: non carica immagine">
+            </a>
+            <!--Github-->
+            <a class="git-ic" href="https://github.com/gtergeomatica/StazioneGNSS_gter" target="_blank" >
+              <img src="./img/github.png" height="30"  hspace="50"alt="errore: non carica immagine">
+            </a>
+            <!--Slideshare-->
+            <a class="pin-ic"href="https://www.slideshare.net/rmarzocchi84" target="_blank">
+              <img src="./img/Slideshare.png" height="30"  hspace="50"alt="errore: non carica immagine">
+            </a></div>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+  
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
     </div>
-    </body>
+    <!-- Copyright -->
+  </div>
+  </footer>
+  <!-- Footer -->
+
+   
+  
     
+
     
-    
-    <footer>
-<br><div style="text-align: center;"> <button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>
-    </footer>
+     </body>
 </html>
+
 
 
 <?php

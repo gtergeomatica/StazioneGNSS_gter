@@ -68,14 +68,14 @@
     
 	  
     
-<br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
-       		<br><div class="row">  </div>
+<div style="text-align: center;"> <button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>    </div>
+           		<br><div class="row">  </div>
        
        </div>   
       
               
-  <!-- Footer -->
-<footer class="page-footer font-small">
+      <!-- Footer -->
+   <footer class="page-footer font-small">
 
     <!-- Footer Elements -->
     <div class="container"style="background-color:#bcd1de;">
@@ -85,31 +85,31 @@
 
         <!-- Grid column -->
         <div class="col">
-          <div class="flex-center align-middle">
+          <div class="mb-5 flex-center align-middle">
 
             <!-- Facebook -->
-            <div style="text-align: center;"><a class="fb-ic" href="https://www.facebook.com/Gteronline" target="_blank">
-            <img src="./img/facebook.png" height="30" hspace="50" alt="errore: non carica immagine"> 
+            <div style="text-align: center;"><a href="https://www.facebook.com/Gteronline" target="_blank">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <!-- Twitter -->
-            <a class="tw-ic"href="https://twitter.com/Gteronline" target="_blank" >
-             <img src="./img/twitter.png" height="30" hspace="50"alt="errore: non carica immagine"> 
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <!-- Google +-->
-            <a class="gplus-ic"href="https://plus.google.com/+GterIt" target="_blank">
-              <img src="./img/googleplus.png" height="30" hspace="50" alt="errore: non carica immagine">
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <!--Linkedin -->
-            <a class="li-ic"href="https://www.linkedin.com/company/gter-srl-innovazione-in-geomatica-gnss-e-gis/" target="_blank">
-               <img src="./img/linkedin.png" height="30" hspace="50" alt="errore: non carica immagine">
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
-            <!--Github-->
-            <a class="git-ic" href="https://github.com/gtergeomatica/StazioneGNSS_gter" target="_blank" >
-              <img src="./img/github.png" height="30"  hspace="50"alt="errore: non carica immagine">
+            <!--Instagram-->
+            <a class="git-ic">
+              <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <!--Slideshare-->
-            <a class="pin-ic"href="https://www.slideshare.net/rmarzocchi84" target="_blank">
-              <img src="./img/Slideshare.png" height="30"  hspace="50"alt="errore: non carica immagine">
+            <a class="pin-ic">
+              <i class="fab fa-slideshare fa-lg white-text fa-2x"> </i>
             </a></div>
           </div>
         </div>
@@ -137,7 +137,6 @@
     
      </body>
 </html>
-
 
 
 <?php
