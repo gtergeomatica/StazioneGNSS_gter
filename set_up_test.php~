@@ -294,7 +294,7 @@
 		 </div> 
 		
 		</form>
-          		<br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
+          	<br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
        		<br><div class="row">  </div>
        
        </div>   

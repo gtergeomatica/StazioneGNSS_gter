@@ -49,8 +49,8 @@
 
         <title></title>
     </head>
-    <body>
-	<div class="container"  style="background-color: #e3f2fd;">
+    <body style="background-color: #e3f2fd;">
+	<div class="container">
 
     
       <div style="text-align: center;"> <h1> Costruisci la tua stazione </h1></div>
@@ -88,10 +88,10 @@ Di cosa hai bisogno:
      
               
   <!-- Footer -->
-<footer class="page-footer font-small">
+<footer class="page-footer font-small" style="background-color:#bcd1de;">
 
     <!-- Footer Elements -->
-    <div class="container"style="background-color:#bcd1de;">
+    <div class="container">
 
       <!-- Grid row-->
       <br><div class="row">

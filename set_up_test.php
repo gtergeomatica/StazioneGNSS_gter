@@ -50,8 +50,8 @@
 
         <title></title>
     </head>
-    <body>
-	<div class="container" style="background-color: #e3f2fd;">
+    <body style="background-color: #e3f2fd;">
+	<div class="container">
 
     <form action="scrivi_configurazione.php" method="POST">
       <div class="row">
@@ -301,10 +301,10 @@
       
               
   <!-- Footer -->
-<footer class="page-footer font-small">
+<footer class="page-footer font-small" style="background-color:#bcd1de;">
 
     <!-- Footer Elements -->
-    <div class="container"style="background-color:#bcd1de;">
+    <div class="container">
 
       <!-- Grid row-->
       <br><div class="row">

@@ -50,8 +50,8 @@
 
         <title></title>
     </head>
-    <body>
-	<div class="container" style="background-color: #e3f2fd;">
+    <body style="background-color: #e3f2fd;">
+	<div class="container" >
 	 <!-- <div class="row"> -->
 		<!-- <div class="col-2"> </div> -->
 	<!-- 	<div class="col-8"> -->
@@ -97,10 +97,10 @@
     
     
   <!-- Footer -->
-<footer class="page-footer font-small">
+<footer class="page-footer font-small" style="background-color:#bcd1de;">
 
     <!-- Footer Elements -->
-    <div class="container"style="background-color:#bcd1de;">
+    <div class="container">
 
       <!-- Grid row-->
       <br><div class="row">

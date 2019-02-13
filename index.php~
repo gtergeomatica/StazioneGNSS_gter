@@ -50,8 +50,8 @@
 
         <title></title>
     </head>
-    <body>
-	<div class="container" style="background-color: #e3f2fd;">
+    <body style="background-color: #e3f2fd;">
+	<div class="container" >
 	 <!-- <div class="row"> -->
 		<!-- <div class="col-2"> </div> -->
 	<!-- 	<div class="col-8"> -->
@@ -89,7 +89,7 @@
      </div>
    <div class="row">
 		<div class="col">
-<div style="text-align: center;">		<a href="https://www.gter.it/" target="_blank"><img src="./img/Gter_logo.png" width="250" hspace="100" alt="" > </a> <a href="https://www.dibris.unige.it/" target="_blank"><img src="./img/Dibris_orizzontale.jpg" width="450" hspace="100" alt="" >  </a>  </div>
+<div style="text-align: center;">		<a href="https://www.gter.it/" target="_blank"><img src="./img/Gter_logo.png" width="250" hspace="100" alt="" > </a> <a href="https://www.dibris.unige.it/" target="_blank"><img src="./img/Dibris_orizzontale.png" width="450" hspace="100" alt="" >  </a>  </div>
       </div>
       
     </div>   
