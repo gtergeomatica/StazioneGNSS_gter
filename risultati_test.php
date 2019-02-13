@@ -31,7 +31,7 @@
         </script>
 
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
+        <link href="/css/stile.css" rel="stylesheet">
 
 
         <link rel="stylesheet" href="../webservice/bootstrap/dist/css/bootstrap.min.css">
@@ -49,7 +49,7 @@
 
         <title></title>
     </head>
-    <body style="background-color: #e3f2fd;">
+    <body style="background-color: #e3f2fd; height = 100vh">
 	<div class="container">
 
     
@@ -75,7 +75,9 @@
       
               
   <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de;">
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+    width: 100vw;
+    bottom: 0vh;">
 
     <!-- Footer Elements -->
     <div class="container">

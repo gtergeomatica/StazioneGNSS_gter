@@ -1,5 +1,8 @@
-@media 
 
-.lato{
-	display: block-inline;
+
+.pie_pagina{
+	background-color: #bcd1de;
+    position: absolute;
+    width: 100vw;
+    bottom: 0vh;
 }

@@ -53,7 +53,7 @@
     <body style="background-color: #e3f2fd;">
 	<div class="container">
 
-    <form action="scrivi_configurazione.php" method="POST">
+    <form action="avvia_test1.php" method="POST">
       <div class="row">
 		<!-- <div class="col-2"> </div> -->
 		<div class="col"> 
@@ -72,7 +72,7 @@
 		 
 		 <div class="form-group col">
 		    <label for="exampleInputEmail1">Durata del test [min] </label>
-		    <input required="" type="number" class="form-control" name="cut_off" id="cutoff" aria-describedby="emailHelp" min=1 max=180 placeholder="Specificare la durata del test">
+		    <input required="" type="number" class="form-control" name="durata_test" id="durata" aria-describedby="emailHelp" min=1 max=180 placeholder="Specificare la durata del test">
 		    
 		  </div> 
         <div class="col"> </div>
