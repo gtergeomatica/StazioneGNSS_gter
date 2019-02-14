@@ -50,7 +50,7 @@
 
         <title></title>
     </head>
-    <body style="background-color: #e3f2fd;">
+    <body style="background-color: #e3f2fd; height = 100vh">
 	<div class="container">
 
     <form action="avvia_test1.php" method="POST">
@@ -109,7 +109,7 @@
 		<div class="form-group col">
              <label for="pos1_posmode"> Tipo di posizionamento: </label> 
              <select class="form-control" name="pos1_posmode" id="pos1_posmode" required="">
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="single" > single </option>
              <option name="tipo_segn" value="dgps" > dgps </option>
 				 <option name="tipo_segn" value="kinematic" > kinematic </option>             
@@ -133,7 +133,7 @@
 		  <div class="form-group col">
               <label for="pos1_ionoopt">Tipo di correzione ionosferica ??:</label> 
              <select class="form-control" name="pos1_ionoopt" id="pos1_ionoopt" required="" >
-             <option name="tipo_segn" value="" >   </option>
+            <!--  <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
              <option name="tipo_segn" value="brdc" > brdc </option>
 				 <option name="tipo_segn" value="sbas" > sbas </option>             
@@ -152,7 +152,7 @@
 		  <div class="form-group col">
               <label for="pos1_tropopt">Tipo di correzione troposferica ??:</label> 
              <select class="form-control" name="pos1_tropopt" id="pos1_tropopt" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
              <option name="tipo_segn" value="saas" > saas </option>
 				 <option name="tipo_segn" value="sbas" > sbas </option>             
@@ -168,7 +168,7 @@
 		  <div class="form-group col">
               <label for="pos1_sateph">Tipo di effemeridi:</label> 
              <select class="form-control" name="pos1_sateph" id="pos1_sateph" required="" >
-             <option name="tipo_segn" value="" >  </option>
+             <!-- <option name="tipo_segn" value="" >  </option> -->
              <option name="tipo_segn" value="brdc" > brdc </option>
              <option name="tipo_segn" value="precise" > precise </option>
 	          <option name="tipo_segn" value="brdc+sbas" > brdc+sbas </option>	  
@@ -181,7 +181,7 @@
 		  <div class="form-group col">
               <label for="pos1_navsys"> Sistema di navigazione:</label> 
              <select class="form-control" name="pos1_navsys" id="pos1_navsys" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="1" > gps </option>
              <option name="tipo_segn" value="2" > sbas </option>
 				 <option name="tipo_segn" value="4" > glonass </option>             
@@ -196,7 +196,7 @@
         <div class="form-group col">
              <label for="out_solformat"> Formato della soluzione:</label> 
              <select class="form-control" name="out_solformat" id="out_solformat" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="llh" > llh </option>
              <option name="tipo_segn" value="xyz" > xyz </option>
 				 <option name="tipo_segn" value="enu" > enu </option>             
@@ -209,7 +209,7 @@
         <div class="form-group col">
               <label for="out_timesys"> Sistema di riferimento temporale:</label> 
              <select class="form-control" name="out_timesys" id="out_timesys" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="gpst" > gpst </option>
              <option name="tipo_segn" value="utc" > utc </option>
 				 <option name="tipo_segn" value="jst" > jst</option>             
@@ -225,7 +225,7 @@
 		<div class="form-group col">
 		<label for="out_timeform"> Formato del tempo:</label> 
              <select class="form-control" name="out_timeform" id="out_timeform" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="tow" > tow </option>
              <option name="tipo_segn" value="hms" > hms </option>
 				 </select>            
@@ -241,7 +241,7 @@
 		<div class="form-group col">
 		<label for="out_height"> Formato della quota:</label> 
              <select class="form-control" name="out_height" id="out_height" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="ellipsoidal" > ellipsoidal </option>
              <option name="tipo_segn" value="geodetic" > geodetic </option>
 				 </select>            
@@ -252,7 +252,7 @@
 		<div class="form-group col">
 		<label for="out_geoid"> Geoide:</label> 
              <select class="form-control" name="out_geoid" id="out_geoid" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="internal" > internal </option>
              <option name="tipo_segn" value="egm96" > egm96 </option>
 				 <option name="tipo_segn" value="egm08_2.5" > egm08_2.5 </option>             
@@ -266,7 +266,7 @@
 		<div class="form-group col">
 		<label for="outstr1_format"> Formato del file di output:</label> 
              <select class="form-control" name="outstr1_format" id="outstr1_format" required="" >
-             <option name="tipo_segn" value="" >   </option>
+             <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="llh" > llh </option>
              <option name="tipo_segn" value="xyz" > xyz </option>
 				 <option name="tipo_segn" value="enu" > enu </option>             
@@ -301,7 +301,9 @@
       
               
   <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de;">
+<footer class="page-footer font-small" style="background-color:#bcd1de; 
+    width: 100vw;
+    bottom: 0vh;">
 
     <!-- Footer Elements -->
     <div class="container">

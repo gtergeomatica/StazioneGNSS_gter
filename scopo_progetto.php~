@@ -61,7 +61,7 @@
 		<div class="col-2"> </div>
 		</div>
         <div class="row">
-			<article>
+			<br><article>
 			Oggetto del presente lavoro è la progettazione per la realizzazione di una stazione GNSS low cost,
 			basata su un software di posizionamento open source, la quale sarà accessibile al pubblico da remoto.
 			Gli obiettivi che si vogliono raggiungere grazie alla realizzazione di questa stazione sono:
@@ -97,7 +97,9 @@ gestione degli accessi, per lo scaricamento dati, e per la visualizzazione delle
        </div> 
     </div>
   <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de;">
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+    width: 100vw;
+    bottom: 0vh;">
 
     <!-- Footer Elements -->
     <div class="container">

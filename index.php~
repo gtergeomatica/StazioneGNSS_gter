@@ -94,13 +94,16 @@
       
     </div>   
     </div>
+    <br>
     
     
   <!-- Footer -->
-<footer class="page-footer font-small">
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+    width: 100vw;
+    bottom: 0vh;">
 
     <!-- Footer Elements -->
-    <div class="container"style="background-color:#bcd1de;">
+    <div class="container">
 
       <!-- Grid row-->
       <br><div class="row">
