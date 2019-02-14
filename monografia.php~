@@ -44,12 +44,15 @@
         
         <link rel="stylesheet" href="../webservice/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
         <script src="../webservice/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
-
-
+ 			
+ 			
+ 			 <link rel="stylesheet" href="../webservice/leaflet/leaflet.css">
+ 			<!-- Make sure you put this AFTER Leaflet's CSS -->
+ 			<script src="../webservice/leaflet/leaflet.js"></script>
 
         <title></title>
     </head>
-    <body style="background-color:#e3f2fd;">
+    <body style="background-color:#e3f2fd; height = 100vh">
 	<div class="container">
 
     
@@ -100,7 +103,22 @@
       	      
       </div>
        <div class="col">
-<div style="text-align: center;">      <iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.96281197667122%2C44.40001079439414%2C8.964300602674486%2C44.40056845386675&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=20/44.40029/8.96356&amp;layers=H">Visualizza mappa ingrandita</a></small></div>
+
+		 <div id="mapid"></div>
+		 <script type="text/javascript" >
+
+ var mymap = new L.map('mapid').setView([51.505, -0.09], 13);
+
+ 
+
+L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    subdomains: ['a','b','c']
+}).addTo( mymap );
+</script> 
+
+
+<!-- <div style="text-align: center;">      <iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.96281197667122%2C44.40001079439414%2C8.964300602674486%2C44.40056845386675&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=20/44.40029/8.96356&amp;layers=H">Visualizza mappa ingrandita</a></small></div> -->
       </div>
       
       
@@ -112,7 +130,9 @@
     </div>
     
     <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de;">
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+    width: 100vw;
+    bottom: 0vh;">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -166,6 +186,15 @@
   </div>
   </footer>
   <!-- Footer -->
+ 
+ 
+ 
+<!-- modifico la mappa  -->
+ 
+
+ 
+
+ 
  
     
    </body> 

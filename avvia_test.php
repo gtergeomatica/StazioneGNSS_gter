@@ -55,7 +55,7 @@ $nome_autore = $_SESSION['nomeaut'];
 	<div class="container">
 
     
-    <div style="text-align: center;">    <h1> Avvia il test  </h1></div>
+    <div style="text-align: center;">    <h1> Il test è in esecuzione </h1></div>
         
         <div class="row">
 		  <!-- //<form action="run_rtklib.php" method="POST"> -->
@@ -69,25 +69,7 @@ $nome_autore = $_SESSION['nomeaut'];
 		<!-- </form> -->
         
            
-      </div>
-    <div class="row">
-    <div class="col"> </div>
-    <div class="col"><a href="./configurazioni_output/prova_<?php echo $nome_autore ?>.conf" download>
-    <button class="btn btn-primary"> <i class="fas fa-download"></i> Download file di configurazione </button>
-    </a> </div>
-    <div class="col">
-    
-    <form action="avvia_test1.php" method="POST">
-    <input type="hidden" name="nome_autore" value="<?php echo $nome_autore;?>" />
-
-    
-    <button type="submit" class="btn btn-primary"> <i class="fas fa-play"></i> Avvia il test </button>
-    
-    
-    </form>
-    </div>
-    <div class="col"> </div>
-    </div>    
+     
         
     
               	<br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
@@ -97,7 +79,9 @@ $nome_autore = $_SESSION['nomeaut'];
       
               
   <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de;">
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+    width: 100vw;
+    bottom: 0vh;">
 
     <!-- Footer Elements -->
     <div class="container">
