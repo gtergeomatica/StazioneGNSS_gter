@@ -49,7 +49,7 @@
 
         <title></title>
     </head>
-    <body style="background-color: #e3f2fd;">
+    <body style="background-color: #e3f2fd; height = 100vh">
 	<div class="container">
 
     
