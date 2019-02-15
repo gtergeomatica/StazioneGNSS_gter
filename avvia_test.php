@@ -57,7 +57,7 @@ $nome_autore = $_SESSION['nomeaut'];
     
     <div style="text-align: center;">    <h1> Il test è in esecuzione </h1></div>
         
-        <div class="row">
+       
 		  <!-- //<form action="run_rtklib.php" method="POST"> -->
 		 
 		 
@@ -73,11 +73,14 @@ $nome_autore = $_SESSION['nomeaut'];
         
     
               	<br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
-       		<br><div class="row">  </div>
+					
+
        
-       </div>   
-      
+       
+          
+      </div> 
               
+  <!-- Footer -->
   <!-- Footer -->
 <footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
     width: 100vw;
@@ -124,7 +127,7 @@ $nome_autore = $_SESSION['nomeaut'];
       </div>
       <!-- Grid row-->
 
-  
+  </div>
     <!-- Footer Elements -->
 
     <!-- Copyright -->
@@ -139,6 +142,7 @@ $nome_autore = $_SESSION['nomeaut'];
   </div>
   </footer>
   <!-- Footer -->
+
 
    
   

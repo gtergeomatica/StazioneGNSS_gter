@@ -73,11 +73,15 @@ $nome_autore = $_SESSION['nomeaut'];
         
     
               	<br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
+					</div>
+
        		<br><div class="row">  </div>
+       		
        
-       </div>   
-      
+          
+      </div> 
               
+  <!-- Footer -->
   <!-- Footer -->
 <footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
     width: 100vw;
@@ -124,17 +128,22 @@ $nome_autore = $_SESSION['nomeaut'];
       </div>
       <!-- Grid row-->
 
-  
+  </div>
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+<div class="footer-copyright text-center py-3"> Sito creato con 
+      <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   
+
     </div>
+    
     <!-- Copyright -->
   </div>
   </footer>
   <!-- Footer -->
+
 
    
   
