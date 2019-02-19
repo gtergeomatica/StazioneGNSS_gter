@@ -84,12 +84,12 @@
     
     
       <div class="row">
+		<div class="col"></div> 
+		<div class="col-7"> 
+		<div style="text-align: center;"> <h2> Modifica le impostazioni di rtklib </h2> </div></div> <div class="col" style="float:right;"><img src="./img/rtklib.png" height="50" alt="errore: non carica immagine"> </div> </div>
+	
 		
-		<div class="col">
-		<div style="text-align: center;"> <h2> Modifica le impostazioni di rtklib </h2> </div>
-		 </div>
-		
-		</div>
+	
 		
 		
 		  

@@ -85,11 +85,11 @@
     
       <div class="row">
 		
-		<div class="col">
-		<div style="text-align: center;"> <h2> Modifica le impostazioni di rtklib </h2> </div>
-		 </div>
+		<div class="col-7"> 
+		<div style="text-align: center;"> <h2> Modifica le impostazioni di rtklib </h2> </div></div> <div class="col" style="float:right;"><img src="./img/rtklib.png" height="50" alt="errore: non carica immagine"> </div> </div>
+	
 		
-		</div>
+	
 		
 		
 		  
@@ -131,7 +131,7 @@
 		  </div>
 		  
 		  <div class="form-group col">
-              <label for="pos1_ionoopt">Tipo di correzione ionosferica ??:</label> 
+              <label for="pos1_ionoopt">Tipo di correzione ionosferica:</label> 
              <select class="form-control" name="pos1_ionoopt" id="pos1_ionoopt" required="" >
             <!--  <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
@@ -150,7 +150,7 @@
         </div>
         
 		  <div class="form-group col">
-              <label for="pos1_tropopt">Tipo di correzione troposferica ??:</label> 
+              <label for="pos1_tropopt">Tipo di correzione troposferica:</label> 
              <select class="form-control" name="pos1_tropopt" id="pos1_tropopt" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
@@ -350,9 +350,13 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    <div class="footer-copyright text-center py-3"> Sito creato con 
+      <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   
+
     </div>
+    
     <!-- Copyright -->
   </div>
   </footer>
