@@ -131,7 +131,7 @@
 		  </div>
 		  
 		  <div class="form-group col">
-              <label for="pos1_ionoopt">Tipo di correzione ionosferica ??:</label> 
+              <label for="pos1_ionoopt">Tipo di correzione ionosferica:</label> 
              <select class="form-control" name="pos1_ionoopt" id="pos1_ionoopt" required="" >
             <!--  <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
@@ -150,7 +150,7 @@
         </div>
         
 		  <div class="form-group col">
-              <label for="pos1_tropopt">Tipo di correzione troposferica ??:</label> 
+              <label for="pos1_tropopt">Tipo di correzione troposferica:</label> 
              <select class="form-control" name="pos1_tropopt" id="pos1_tropopt" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
