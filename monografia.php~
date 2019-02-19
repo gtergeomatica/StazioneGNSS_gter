@@ -52,7 +52,7 @@
 
         <title></title>
     </head>
-    <body style="background-color:#e3f2fd; height = 100vh">
+    <body style="background-color:#e3f2fd;">
 	<div class="container">
 
     
@@ -104,36 +104,24 @@
       </div>
        <div class="col">
 
-<!-- 		 <div id="mapid"></div>
-		 <script type="text/javascript" >
+		 <div id="mapid" style="width: 100%; padding-top: 100%;">
+						</div>
+		 
 
- var mymap = new L.map('mapid').setView([51.505, -0.09], 13);
-
- 
-
-L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    subdomains: ['a','b','c']
-}).addTo( mymap );
-</script>  -->
-
-
-<div style="text-align: center;">      <iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.96281197667122%2C44.40001079439414%2C8.964300602674486%2C44.40056845386675&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=20/44.40029/8.96356&amp;layers=H">Visualizza mappa ingrandita</a></small></div> 
-      </div>
+<!--div style="text-align: center;">      <iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.96281197667122%2C44.40001079439414%2C8.964300602674486%2C44.40056845386675&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=20/44.40029/8.96356&amp;layers=H">Visualizza mappa ingrandita</a></small></div> 
+      </div-->
       
       
     </div>   
-    
-    <div style="text-align: center;"> <button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>    </div>
-           		<br><div class="row">  </div>
+    </div>
+    <br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
+       		<br><div class="row">  </div>
                
     </div>
-    
     <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+<footer class="page-footer font-small" style="background-color:#bcd1de; 
     width: 100vw;
     bottom: 0vh;">
-
     <!-- Footer Elements -->
     <div class="container">
 
@@ -179,25 +167,46 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    <div class="footer-copyright text-center py-3"> Sito creato con 
+      <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   
+
     </div>
+    
     <!-- Copyright -->
   </div>
   </footer>
-  <!-- Footer -->
- 
- 
- 
-<!-- modifico la mappa  -->
- 
-
- 
-
- 
+   
  
     
-   </body> 
+ 
+<!-- modifico la mappa  -->
+<script type="text/javascript" >
+
+ var mymap = new L.map('mapid').setView([44.40001079439414, 8.964300602674486], 16);
+
+ 
+
+ var basemap2 = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>',
+            maxZoom: 28
+        });
+
+        mymap.addLayer(basemap2);
+        
+var marker = L.marker([44.400408, 8.963452]).addTo(mymap);
+
+marker.bindPopup("<b>Stazione GNSS DICCA</b>");
+
+var marker = L.marker([44.400408, 8.863452]).addTo(mymap);
+</script>
+ 
+
+ </body> 
+ 
+    
+
   </html>
 
 

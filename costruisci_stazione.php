@@ -88,7 +88,9 @@ Di cosa hai bisogno:
      
               
   <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de;">
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+width: 100vw;
+    bottom: 0vh;"> 
 
     <!-- Footer Elements -->
     <div class="container">

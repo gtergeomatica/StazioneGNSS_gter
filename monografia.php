@@ -52,88 +52,40 @@
 
         <title></title>
     </head>
-    <body style="background-color:#e3f2fd; height = 100vh">
+    <body style="background-color:#e3f2fd;">
 	<div class="container">
 
     
       <div style="text-align: center;"> <h1> Monografia della stazione </h1></div>
       <br><div class="row" >
       <div class="col">
-		Antenna 1 (Tallisman)
-		<br> Ricevitore 1 (ublox neo m8t)
+		  Monografia Stazione DICCA <a href="./monografie/monografia_stazione_DICCA.pdf" target="_blank"> download </a>
+      
+      <br> Monografia Stazione DIBRIS <a href="./monografie/monografia_stazione_DIBRIS.pdf" target="_blank"> download </a>
+
 		
-		<table class="table">
-  		<thead>
-    	<tr>
-      <th scope="col"> </th>
-      <th scope="col"> Cooordinate Geografiche RDN
-<br>(ETRF2000): </th>
-      <th scope="col"> Coordinate Gauss - Boaga
-      <br> (Fuso ovest): </th>
-      <th scope="col">Coordinate Geografiche IGS05
-<br>(ETRF2005):</th>
-   	</tr>
-  		</thead>
-  <tbody>
-    <tr>
-      <th scope="row">LAT</th>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      </tr>
-  <tr>
-      <th scope="row">LON</th>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      
-      
-      </tr>
-	  <tr>
-      <th scope="row">QUOTA</th>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      
-      
-      
-      </tr>
-        </tbody>
-</table>
-      	      
+		     	      
       </div>
        <div class="col">
 
-<!-- 		 <div id="mapid"></div>
-		 <script type="text/javascript" >
+		    <div id="mapid" style="width: 100%; padding-top: 100%;">
+						</div>
+		 
 
- var mymap = new L.map('mapid').setView([51.505, -0.09], 13);
-
- 
-
-L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    subdomains: ['a','b','c']
-}).addTo( mymap );
-</script>  -->
-
-
-<div style="text-align: center;">      <iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.96281197667122%2C44.40001079439414%2C8.964300602674486%2C44.40056845386675&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=20/44.40029/8.96356&amp;layers=H">Visualizza mappa ingrandita</a></small></div> 
-      </div>
+<!--div style="text-align: center;">      <iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.96281197667122%2C44.40001079439414%2C8.964300602674486%2C44.40056845386675&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=20/44.40029/8.96356&amp;layers=H">Visualizza mappa ingrandita</a></small></div> 
+      </div-->
       
       
     </div>   
-    
-    <div style="text-align: center;"> <button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>    </div>
-           		<br><div class="row">  </div>
+    </div>
+    <br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
+       		<br><div class="row">  </div>
                
     </div>
-    
     <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+<footer class="page-footer font-small" style="background-color:#bcd1de; 
     width: 100vw;
     bottom: 0vh;">
-
     <!-- Footer Elements -->
     <div class="container">
 
@@ -179,7 +131,7 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-  <div class="footer-copyright text-center py-3"> Sito creato con 
+    <div class="footer-copyright text-center py-3"> Sito creato con 
       <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   
@@ -189,19 +141,43 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     <!-- Copyright -->
   </div>
   </footer>
-  <!-- Footer -->
- 
- 
- 
-<!-- modifico la mappa  -->
- 
-
- 
-
- 
+   
  
     
-   </body> 
+ 
+<!-- modifico la mappa  -->
+<script type="text/javascript" >
+
+
+var stazioni = [
+		["<b> Stazione DICCA </b> <br> stato: operativa <br>",44.400408, 8.963452],
+		["<b> Stazine DIBRIS </b> <br> stato: non operativa ",44.403105, 8.972459]];
+
+
+ var mymap = new L.map('mapid').setView([44.400433, 8.96890], 15);
+
+ 
+
+ var basemap2 = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>',
+            maxZoom: 28
+        });
+
+        mymap.addLayer(basemap2);
+        
+
+for (var i = 0; i < stazioni.length; i++) {
+			marker = new L.marker([stazioni[i][1],stazioni[i][2]])
+				.bindPopup(stazioni[i][0])
+				.addTo(mymap);
+		}
+</script>
+ 
+
+ </body> 
+ 
+    
+
   </html>
 
 
