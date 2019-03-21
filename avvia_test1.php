@@ -56,7 +56,7 @@ echo "<h2>TCP/IP Connection</h2>\n";
 //$service_port = getservbyname('8082', 'tcp');
 $service_port = '8082';
 /* Get the IP address for the target host. */
-$address = gethostbyname('10.0.8.3');
+$address = gethostbyname('192.168.2.135');
 
 /* Create a TCP/IP socket. */
 $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -83,10 +83,10 @@ echo "Sending HTTP HEAD request...";
 socket_write($socket, $stringa, strlen($stringa));
 echo "OK.\n";
 
-#echo "Reading response:\n\n";
-#while ($out = socket_read($socket, 1024)) {
-#    echo $out;
-#}
+//echo "Reading response:\n\n";
+//while ($out = socket_read($socket, 1024)) {
+   // echo $out;
+//}
 #exit;
 echo "Closing socket...";
 socket_close($socket);
