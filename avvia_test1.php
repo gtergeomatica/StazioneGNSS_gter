@@ -12,12 +12,18 @@ $out_timeform = $_POST['out_timeform'];
 $out_height = $_POST['out_height'];
 $out_geoid = $_POST['out_geoid'];
 $outstr1_format = $_POST['outstr1_format'];
-$durata_test = $_POST['durata_test'];
+
 
 
 session_start();
 // recupero nome 
 $nomeaut = $_POST['nome_autore'];
+$durata_test = $_POST['durata_test'];
+
+//salvo i dati nella variabile globale
+$_SESSION['nomeaut']=$nomeaut;
+$_SESSION['durata_test']=$durata_test;
+
 
 $stringa ="{$nomeaut} {$pos1_posmode} {$cut_off} {$pos1_ionoopt} {$pos1_tropopt} {$pos1_sateph} {$pos1_navsys} {$out_solformat} {$out_timesys} {$out_timeform} {$out_height} {$out_geoid} {$outstr1_format} {$durata_test}";
 

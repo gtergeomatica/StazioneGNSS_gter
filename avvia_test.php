@@ -3,7 +3,8 @@
 session_start();
 
 $nome_autore = $_SESSION['nomeaut'];
-
+$tempo_minuti = $_SESSION['durata_test'];
+//$nome_auto = "lorenzo" ;
 ?>
 
 
@@ -29,7 +30,28 @@ $nome_autore = $_SESSION['nomeaut'];
         
         <script>
         // qua dentro ci potrei mettere del codice javascript
-        
+        function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    var Minutes = 60 * "<?php echo($tempo_minuti); ?>",
+        display = document.querySelector('#time');
+    startTimer(Minutes, display);
+};      
         </script>
 
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -56,9 +78,18 @@ $nome_autore = $_SESSION['nomeaut'];
 
     
     <div style="text-align: center;">    <h1> Il test è in esecuzione </h1></div>
-        
-       
-		  <!-- //<form action="run_rtklib.php" method="POST"> -->
+    <div style="text-align: center;"> <h3>  Il risultato sarà disponibile fra <span id="time">0<?php echo($tempo_minuti); ?>:00</span> minuti a questo <a href="http://demo.gter.it/stazione_gnss/test_output/test_<?php echo($nome_autore); ?>.pos" target="_blank"> link </a> </h3></div> 
+ 
+
+</div>
+<div id="submitted">
+
+</div>
+    
+
+     
+     
+      <!-- //<form action="run_rtklib.php" method="POST"> -->
 		 
 		 
 		 
