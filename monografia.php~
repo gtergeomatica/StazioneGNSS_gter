@@ -59,52 +59,16 @@
       <div style="text-align: center;"> <h1> Monografia della stazione </h1></div>
       <br><div class="row" >
       <div class="col">
-		Antenna 1 (Tallisman)
-		<br> Ricevitore 1 (ublox neo m8t)
+		  Monografia Stazione DICCA <a href="./monografie/monografia_stazione_DICCA.pdf" target="_blank"> download </a>
+      
+      <br> Monografia Stazione DIBRIS <a href="./monografie/monografia_stazione_DIBRIS.pdf" target="_blank"> download </a>
+
 		
-		<table class="table">
-  		<thead>
-    	<tr>
-      <th scope="col"> </th>
-      <th scope="col"> Cooordinate Geografiche RDN
-<br>(ETRF2000): </th>
-      <th scope="col"> Coordinate Gauss - Boaga
-      <br> (Fuso ovest): </th>
-      <th scope="col">Coordinate Geografiche IGS05
-<br>(ETRF2005):</th>
-   	</tr>
-  		</thead>
-  <tbody>
-    <tr>
-      <th scope="row">LAT</th>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      </tr>
-  <tr>
-      <th scope="row">LON</th>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      
-      
-      </tr>
-	  <tr>
-      <th scope="row">QUOTA</th>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      <td> disponibili a breve </td>
-      
-      
-      
-      </tr>
-        </tbody>
-</table>
-      	      
+		     	      
       </div>
        <div class="col">
 
-		 <div id="mapid" style="width: 100%; padding-top: 100%;">
+		    <div id="mapid" style="width: 100%; padding-top: 100%;">
 						</div>
 		 
 
@@ -119,7 +83,7 @@
                
     </div>
     <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de; 
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
     width: 100vw;
     bottom: 0vh;">
     <!-- Footer Elements -->
@@ -140,6 +104,10 @@
             <a class="tw-ic"href="https://twitter.com/Gteronline" target="_blank" >
              <img src="./img/twitter.png" height="30" hspace="50"alt="errore: non carica immagine"> 
             </a>
+            <!--Instagram-->
+            <a class="git-ic" href="https://www.instagram.com/gter_srl/?hl=it" target="_blank" >
+              <img src="./img/instagram.png" height="30"  hspace="50"alt="errore: non carica immagine">
+            </a>    
             <!-- Google +-->
             <a class="gplus-ic"href="https://plus.google.com/+GterIt" target="_blank">
               <img src="./img/googleplus.png" height="30" hspace="50" alt="errore: non carica immagine">
@@ -147,7 +115,7 @@
             <!--Linkedin -->
             <a class="li-ic"href="https://www.linkedin.com/company/gter-srl-innovazione-in-geomatica-gnss-e-gis/" target="_blank">
                <img src="./img/linkedin.png" height="30" hspace="50" alt="errore: non carica immagine">
-            </a>
+            </a>    
             <!--Github-->
             <a class="git-ic" href="https://github.com/gtergeomatica/StazioneGNSS_gter" target="_blank" >
               <img src="./img/github.png" height="30"  hspace="50"alt="errore: non carica immagine">
@@ -177,14 +145,19 @@
     <!-- Copyright -->
   </div>
   </footer>
-   
- 
+  <!-- Footer -->
     
  
 <!-- modifico la mappa  -->
 <script type="text/javascript" >
 
- var mymap = new L.map('mapid').setView([44.40001079439414, 8.964300602674486], 16);
+
+var stazioni = [
+		["<b> Stazione DICCA </b> <br> stato: operativa <br>",44.400408, 8.963452],
+		["<b> Stazine DIBRIS </b> <br> stato: non operativa ",44.403105, 8.972459]];
+
+
+ var mymap = new L.map('mapid').setView([44.400433, 8.96890], 15);
 
  
 
@@ -195,11 +168,12 @@
 
         mymap.addLayer(basemap2);
         
-var marker = L.marker([44.400408, 8.963452]).addTo(mymap);
 
-marker.bindPopup("<b>Stazione GNSS DICCA</b>");
-
-var marker = L.marker([44.400408, 8.863452]).addTo(mymap);
+for (var i = 0; i < stazioni.length; i++) {
+			marker = new L.marker([stazioni[i][1],stazioni[i][2]])
+				.bindPopup(stazioni[i][0])
+				.addTo(mymap);
+		}
 </script>
  
 

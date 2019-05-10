@@ -74,11 +74,10 @@
        </div>   
       
               
-  <!-- Footer -->
+ <!-- Footer -->
 <footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
     width: 100vw;
     bottom: 0vh;">
-
     <!-- Footer Elements -->
     <div class="container">
 
@@ -97,6 +96,10 @@
             <a class="tw-ic"href="https://twitter.com/Gteronline" target="_blank" >
              <img src="./img/twitter.png" height="30" hspace="50"alt="errore: non carica immagine"> 
             </a>
+            <!--Instagram-->
+            <a class="git-ic" href="https://www.instagram.com/gter_srl/?hl=it" target="_blank" >
+              <img src="./img/instagram.png" height="30"  hspace="50"alt="errore: non carica immagine">
+            </a>    
             <!-- Google +-->
             <a class="gplus-ic"href="https://plus.google.com/+GterIt" target="_blank">
               <img src="./img/googleplus.png" height="30" hspace="50" alt="errore: non carica immagine">
@@ -104,7 +107,7 @@
             <!--Linkedin -->
             <a class="li-ic"href="https://www.linkedin.com/company/gter-srl-innovazione-in-geomatica-gnss-e-gis/" target="_blank">
                <img src="./img/linkedin.png" height="30" hspace="50" alt="errore: non carica immagine">
-            </a>
+            </a>    
             <!--Github-->
             <a class="git-ic" href="https://github.com/gtergeomatica/StazioneGNSS_gter" target="_blank" >
               <img src="./img/github.png" height="30"  hspace="50"alt="errore: non carica immagine">
@@ -124,7 +127,7 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-<div class="footer-copyright text-center py-3"> Sito creato con 
+    <div class="footer-copyright text-center py-3"> Sito creato con 
       <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   
@@ -135,7 +138,6 @@
   </div>
   </footer>
   <!-- Footer -->
-
    
   
     
