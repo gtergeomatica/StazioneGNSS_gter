@@ -89,13 +89,22 @@
      </div>
    <div class="row">
 		<div class="col">
-<div style="text-align: center;">		<a href="https://www.gter.it/" target="_blank"><img src="./img/Gter_logo.png" width="250" hspace="100" alt="" > </a> <a href="https://www.dibris.unige.it/" target="_blank"><img src="./img/Dibris_orizzontale.png" width="450" hspace="100" alt="" >  </a>  </div>
+<div style="text-align: center;">		<a href="https://www.gter.it/" target="_blank"><img src="./img/Gter_logo.png" width="250" hspace="100" alt="" > </a> <a href="https://www.dibris.unige.it/en" target="_blank"><img src="./img/Dibris_orizzontale.png" width="450" hspace="100" alt="" >  </a>  </div>
       </div>
       
     </div>   
     </div>
     <br>
+
     
+   <div class="row">
+		<div class="col">
+<div style="text-align: center;">		<a href="http://www3.dicca.unige.it/geomatica/ricerca/" target="_blank"><img src="./img/logolab.png" width="120" hspace="150" alt="" > </a> <a href="https://www.dicca.unige.it/" target="_blank"><img src="./img/logodicca.png" width="200" hspace="150" alt="" >  </a>  </div>
+      </div>
+      
+    </div>   
+    </div>
+    <br>  
     
   <!-- Footer -->
 <footer class="page-footer font-small" style="background-color:#bcd1de;
@@ -150,7 +159,7 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3"> Sito creato con 
+    <div class="footer-copyright text-center py-3"> Website created with 
       <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   

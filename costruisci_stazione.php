@@ -53,17 +53,17 @@
 	<div class="container">
 
     
-      <div style="text-align: center;"> <h1> Costruisci la tua stazione </h1></div>
+      <div style="text-align: center;"> <h1> Build your own station </h1></div>
       
-      <div style="text-align: center;"> <h3> Pagina in manutenzione </h3></div>
+      <div style="text-align: center;"> <h3> Page under maintenance </h3></div>
         
 <article>
-Di cosa hai bisogno:
+What do you need:
 
 <ul>
 <li> <a href="https://www.amazon.it/ABOX-Raspberry-Barebone-Custodia-Interruttore/dp/B07DC128P2/ref=sr_1_5?ie=UTF8&qid=1549366193&sr=8-5&keywords=raspberry+pi+3" target="_blank"> Raspberry Pi 3 </a></li>
-<li> Ricevitore GNSS (ad esempio <a href="https://www.u-blox.com/en/product/neolea-m8t-series" target="_blank"> ublox neo M8T </a> )</li>
-<li> Un'antenna (ad esempio <a href="http://www.tallysman.com/index.php/gnss/products/antennas-gpsbeidougalileoglonass/tw4721/drawings/" target="_blank"> Tallysman TW4721  </a> )</li>
+<li> GNSS receiver (e.g. <a href="https://www.u-blox.com/en/product/neolea-m8t-series" target="_blank"> ublox neo M8T </a> )</li>
+<li> Antenna (e.g. <a href="http://www.tallysman.com/index.php/gnss/products/antennas-gpsbeidougalileoglonass/tw4721/drawings/" target="_blank"> Tallysman TW4721  </a> )</li>
 
 </ul>
 
@@ -140,7 +140,7 @@ Di cosa hai bisogno:
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3"> Sito creato con 
+    <div class="footer-copyright text-center py-3"> Website created with  
       <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   
