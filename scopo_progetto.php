@@ -56,37 +56,32 @@
        <div class="row">
 		<div class="col-2"> </div>
 		<div class="col-8">
-		<div style="text-align: center;"><h1> Scopo del progetto </h1></div>
+		<div style="text-align: center;"><h1> Purpose of the project </h1></div>
 		 </div>
 		<div class="col-2"> </div>
 		</div>
         <div class="row">
 			<br><article>
-			Oggetto del presente lavoro è la progettazione per la realizzazione di una stazione GNSS low cost,
-			basata su un software di posizionamento open source, la quale sarà accessibile al pubblico da remoto.
-			Gli obiettivi che si vogliono raggiungere grazie alla realizzazione di questa stazione sono:
+			The purpose of this work is the design and the realization of some low cost GNSS permanent stations, working with an open source positioning software. 
+			Those stations will be remotely accessible to the public.
+			The goals that authors want to achive with the realization of those stations are:
 			<ul>
-  			<li>realizzare un ambiente di test per il posizionamento GNSS sia in tempo reale che in post-
-processamento, basato su librerie open source (RTKLIB);</li>
-  			<li>rendere disponibile un ambiente per imparare a usare da remoto il software RTKLIB
-accoppiato a ricevitori GNSS mass-market.</li>
+  			<li>to create a test environment for GNSS positioning both in real time and in post-processing, based on open source libraries (RTKLIB);</li>
+  			<li>make available an environment to remotely learn how to use RTKLIB software coupled to mass-market GNSS receivers.</li>
   			
 			</ul>
-La stazione sarà equipaggiata con ricevitori u-blox Neo M8T i quali sono multi-costellazione (GPS,
-GLONASS e Galileo) e singola frequenza, supportati da un’antenna Tallysman W4721 posizionata
-su un punto di coordinate note. Il processore a bordo della stazione sarà un Raspberry pi3 che tra gli
-altri porterà a bordo il software open source RTKLIB per gestire il posizionamento in real time e
-l’acquisizione di dati grezzi per il post-processing.
-L’accoppiata ricevitore a basso costo (u-blox Neo M8T) e RTKLIB mostra delle buone potenzialità
-nel posizionamento satellitare; tuttavia a volte può risultare poco intuitivo effettuare un
-posizionamento di qualità a causa del grande numero di parametri da settare sia per la
-configurazione del ricevitore, sia per la modalità del posizionamento (lato RTKLIB). Da qui l’idea
-di rendere disponibile alla comunità un ambiente di test, ad accesso profilato e remoto, su cui sarà
-possibile effettuare test di posizionamento di vario genere, sperimentando direttamente la sensitività
-dei parametri, la qualità del posizionamento, le peculiarità e potenzialità del software open source
+      The station will be equipped with u-blox Neo M8T receivers which are multi-constellation (GPS, GLONASS and Galileo) and single frequency, supported by a Tallysman W4721 antenna positioned on a point of known coordinates.  
+      The on board processor will be a Raspberry pi3, and  among others softwares it will bring on board the open source software RTKLIB to manage the positioning in real time and the raw data acquisition for post-processing elaborations.
+
+
+      The low cost receiver (u-blox Neo M8T) and RTKLIB pair shows good potentiality
+in satellite positioning; however, sometimes it may not be intuitive to carry out a
+good quality positioning due to the large number of parameters to be set for the receiver configuration, and for the positioning mode (RTKLIB side). Hence the idea
+to make available to the community a test environment, with profiled remote access, on which it will be possible to carry out positioning tests. The purpose of tests is to allow people to directly experience the sensitivity
+of all the parameters, the quality of the positioning, the peculiarities and potentialities of the open source software
 RTKLIB.
-Da un punto di vista logistico-organizzativo verrà progettato e realizzato un servizio web per la
-gestione degli accessi, per lo scaricamento dati, e per la visualizzazione delle configurazioni.
+From a logistical-organizational point of view, a web service will be designed and implemented for the
+access management, data download, and configuration visualization.
 			</article>        
      
     </div>

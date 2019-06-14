@@ -56,12 +56,12 @@
 	<div class="container">
 
     
-      <div style="text-align: center;"> <h1> Monografia della stazione </h1></div>
+      <div style="text-align: center;"> <h1> Stations Monographs </h1></div>
       <br><div class="row" >
       <div class="col">
-		  Monografia Stazione DICCA <a href="./monografie/monografia_stazione_DICCA.pdf" target="_blank"> download </a>
+		  DICCA Station monograph<a href="./monografie/monografia_stazione_DICCA.pdf" target="_blank"> download </a>
       
-      <br> Monografia Stazione DIBRIS <a href="./monografie/monografia_stazione_DIBRIS.pdf" target="_blank"> download </a>
+      <br>DIBRIS Station monograph<a href="./monografie/monografia_stazione_DIBRIS.pdf" target="_blank"> download </a>
 
 		
 		     	      

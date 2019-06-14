@@ -56,16 +56,21 @@
        <div class="row">
 		<div class="col-2"> </div>
 		<div class="col-8">
-		<div style="text-align: center;"><h1> Risultati dei test </h1></div>
+		<div style="text-align: center;"><h1> Test results </h1></div>
 		 </div>
 		<div class="col-2"> </div>
 		</div>
         
-   
+    <div class="row">
+			<br><article>
+      Brief explanation of how to view the results with rtkplot 
+			</article>        
+     
+    </div>
        
+    <div style="text-align: center;">  <img src="img/gndtrk.png" width="400" alt="" vspace="30" hspace="50"> <img src="img/position.png" width="400" alt="" vspace="30"> </div>
 
-
-    
+    <div style="text-align: center;">  <img src="img/velocity.png" width="400" alt="" vspace="30" hspace="50"> <img src="img/nsat.png" width="400" alt="" vspace="30"> </div>
 	  
     
 <br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
@@ -75,7 +80,7 @@
       
               
  <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+<footer class="page-footer font-small" style="background-color:#bcd1de;
     width: 100vw;
     bottom: 0vh;">
     <!-- Footer Elements -->

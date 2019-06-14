@@ -77,8 +77,8 @@ window.onload = function () {
 	<div class="container">
 
     
-    <div style="text-align: center;">    <h1> Il test è in esecuzione </h1></div>
-    <div style="text-align: center;"> <h3>  Il risultato sarà disponibile fra <span id="time">0<?php echo($tempo_minuti); ?>:00</span> minuti a questo <a href="http://demo.gter.it/stazione_gnss/test_output/test_<?php echo($nome_autore); ?>.pos" target="_blank"> link </a> </h3></div> 
+    <div style="text-align: center;">    <h1> Test is on </h1></div>
+    <div style="text-align: center;"> <h3>  The result will be available in <span id="time">0<?php echo($tempo_minuti); ?>:00</span> minutes at this <a href="http://demo.gter.it/stazione_gnss/test_output/test_<?php echo($nome_autore); ?>.pos" target="_blank"> link </a> </h3></div> 
  
 
 </div>

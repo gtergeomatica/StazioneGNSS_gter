@@ -56,7 +56,7 @@
 		<!-- <div class="col-2"> </div> -->
 	<!-- 	<div class="col-8"> -->
 
-<div style="text-align: center;"><div class=" pagina-header font-weight-bold "><h1> Ambiente di test per ricevitori GNSS a basso costo </h1></div></div>
+<div style="text-align: center;"><div class=" pagina-header font-weight-bold "><h1> Test environment for GNSS mass-market receivers </h1></div></div>
 		<!--  </div> -->
 		<!-- <div class="col-2"> </div> -->
 		<!-- </div> -->
@@ -67,18 +67,18 @@
 		</div> -->
 		<div class="col">		
 	
-  <button onClick="location.href='scopo_progetto.php'"class="btn btn-primary btn-lg btn-block" > scopo del progetto </button>    	
+  <button onClick="location.href='scopo_progetto.php'"class="btn btn-primary btn-lg btn-block" > purpose of the project </button>    	
 	
-	   <br><button onClick="location.href='monografia.php'"class="btn btn-primary btn-lg btn-block"> monografia della stazione </button>    
+	   <br><button onClick="location.href='monografia.php'"class="btn btn-primary btn-lg btn-block"> stations monograph </button>    
 
       
-      <br><button onClick="location.href='costruisci_stazione.php'"class="btn btn-primary btn-lg btn-block"> costruisci la tua stazione </button>
+      <br><button onClick="location.href='costruisci_stazione.php'"class="btn btn-primary btn-lg btn-block"> build your own station </button>
 		
-	   <br><button onClick="location.href='set_up_test.php'"class="btn btn-primary btn-lg btn-block"> inizia il tuo test </button>    
+	   <br><button onClick="location.href='set_up_test.php'"class="btn btn-primary btn-lg btn-block"> start your test </button>    
      
       
 		
-		<br><button onClick="location.href='risultati_test.php'"class="btn btn-primary btn-lg btn-block"> risultati del tuo test </button>    
+		<br><button onClick="location.href='risultati_test.php'"class="btn btn-primary btn-lg btn-block"> about the results </button>    
  
  		
     	</div>
@@ -98,7 +98,7 @@
     
     
   <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
+<footer class="page-footer font-small" style="background-color:#bcd1de;
     width: 100vw;
     bottom: 0vh;">
     <!-- Footer Elements -->

@@ -57,7 +57,7 @@
       <div class="row">
 		<!-- <div class="col-2"> </div> -->
 		<div class="col"> 
-		<div style="text-align: center;"> <h2> Inserisci i tuoi dati </h2> </div>
+		<div style="text-align: center;"> <h2> Insert you data </h2> </div>
 		</div> 
 		<!-- <div class="col-2"> </div> -->
 		</div>
@@ -65,14 +65,14 @@
        <div class="row"> 
        <div class="col"> </div>
 		 	 <div class="form-group col">
-		    <label for="nome"> Nome </label>
-   		<input required="" type="text"  class="form-control" name="nome_autore" id="nome" placeholder="Inserisci il nome...">
+		    <label for="nome"> Name </label>
+   		<input required="" type="text"  class="form-control" name="nome_autore" id="nome" placeholder="Insert you name...">
   			</div>
 		 
 		 
 		 <div class="form-group col">
-		    <label for="exampleInputEmail1">Durata del test [min] </label>
-		    <input required="" type="number" class="form-control" name="durata_test" id="durata" aria-describedby="emailHelp" min=1 max=180 placeholder="Specificare la durata del test">
+		    <label for="exampleInputEmail1">Test duration [min] </label>
+		    <input required="" type="number" class="form-control" name="durata_test" id="durata" aria-describedby="emailHelp" min=1 max=180 placeholder="Specify test duration">
 		    
 		  </div> 
         <div class="col"> </div>
@@ -86,7 +86,7 @@
       <div class="row">
 		<div class="col"></div> 
 		<div class="col-7"> 
-		<div style="text-align: center;"> <h2> Modifica le impostazioni di rtklib </h2> </div></div> <div class="col" style="float:right;"><img src="./img/rtklib.png" height="50" alt="errore: non carica immagine"> </div> </div>
+		<div style="text-align: center;"> <h2> Change rtklib settings </h2> </div></div> <div class="col" style="float:right;"><img src="./img/rtklib.png" height="50" alt="errore: non carica immagine"> </div> </div>
 	
 		
 	
@@ -97,7 +97,7 @@
 		<div class="col-2"> </div>
 		<div class="col-8">
 		 <div style="text-align: center;"> 
-		<h5> Puoi trovare maggiori informazioni sui parametri consultando il <a href="http://www.rtklib.com/rtklib_document.htm" target="_blank"> manuale di rtklib</a> </h5> </div>
+		<h5> You can find more information about rtklib configuration settings by consulting the <a href="http://www.rtklib.com/rtklib_document.htm" target="_blank"> manual </a> </h5> </div>
 		 </div>
 		<div class="col-2"> </div>
 		</div>
@@ -107,7 +107,7 @@
 		 <div class="row"> 
 		 
 		<div class="form-group col">
-             <label for="pos1_posmode"> Tipo di posizionamento: </label> 
+             <label for="pos1_posmode"> Positioning type: </label> 
              <select class="form-control" name="pos1_posmode" id="pos1_posmode" required="">
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="single" > single </option>
@@ -121,17 +121,17 @@
              <option name="tipo_segn" value="ppp-fixed" > ppp-fixed </option>
              
              </select>            
-					<small id="emailHelp" class="form-text text-muted">specificare il tipo di posizionamento.</small>        
+					<small id="emailHelp" class="form-text text-muted">Specify the positioning type.</small>        
         </div>
              		 
 		 <div class="form-group col">
-		    <label for="exampleInputEmail1">Angolo cut-off (10°-45°)</label>
+		    <label for="exampleInputEmail1"> Cut-off angle (10°-45°)</label>
 		    <input required="" type="number" class="form-control" name="cut_off" id="cutoff" aria-describedby="emailHelp" min=10 max=45 > 
-		    <small id="emailHelp" class="form-text text-muted">Inserire angolo cut-off  </small>
+		    <small id="emailHelp" class="form-text text-muted">Insert cutt-off angle  </small>
 		  </div>
 		  
 		  <div class="form-group col">
-              <label for="pos1_ionoopt">Tipo di correzione ionosferica:</label> 
+              <label for="pos1_ionoopt"> Ionospheric correction:</label> 
              <select class="form-control" name="pos1_ionoopt" id="pos1_ionoopt" required="" >
             <!--  <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
@@ -146,11 +146,11 @@
              <option name="tipo_segn" value="vtec_ef" > vtec_ef </option>
              <option name="tipo_segn" value="gtec" > gtec </option>
              </select>            
-					<small id="emailHelp" class="form-text text-muted">selezionare il tipo di correzione.</small>        
+					<small id="emailHelp" class="form-text text-muted">Select the tipology of correction.</small>        
         </div>
         
 		  <div class="form-group col">
-              <label for="pos1_tropopt">Tipo di correzione troposferica:</label> 
+              <label for="pos1_tropopt">Tropospheric correction:</label> 
              <select class="form-control" name="pos1_tropopt" id="pos1_tropopt" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="off" > off </option>
@@ -159,14 +159,14 @@
              <option name="tipo_segn" value="est-ztd" > est-ztd </option>
              <option name="tipo_segn" value="est-ztdgrad" > est-ztdgrad </option>
 				 </select>            
-					<small id="emailHelp" class="form-text text-muted">selezionare il tipo di correzione.</small>        
+					<small id="emailHelp" class="form-text text-muted">Select the tipology of correction.</small>        
         </div>  
         
         </div>      
        <div class="row">     
         
 		  <div class="form-group col">
-              <label for="pos1_sateph">Tipo di effemeridi:</label> 
+              <label for="pos1_sateph">Ephemerides typology:</label> 
              <select class="form-control" name="pos1_sateph" id="pos1_sateph" required="" >
              <!-- <option name="tipo_segn" value="" >  </option> -->
              <option name="tipo_segn" value="brdc" > brdc </option>
@@ -175,11 +175,11 @@
 		       <option name="tipo_segn" value="brdc+ssrapc" > brdc+ssrapc </option>
 		       <option name="tipo_segn" value="brdc+sscrom" > brdc+sscrom </option>
 		  </select>  
-		  <small id="emailHelp" class="form-text text-muted">selezionare il tipo di effemeridi.</small>           
+		  <small id="emailHelp" class="form-text text-muted">Select ephemerides typology.</small>           
         </div>
         
 		  <div class="form-group col">
-              <label for="pos1_navsys"> Sistema di navigazione:</label> 
+              <label for="pos1_navsys"> Navigation system:</label> 
              <select class="form-control" name="pos1_navsys" id="pos1_navsys" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="1" > gps </option>
@@ -190,11 +190,11 @@
 				 <option name="tipo_segn" value="32" > compass </option>
 				 
 				 </select>            
-					<small id="emailHelp" class="form-text text-muted">selezionare il sistema di navigazione.</small>        
+					<small id="emailHelp" class="form-text text-muted">Select navigation system.</small>        
         </div>            
         
         <div class="form-group col">
-             <label for="out_solformat"> Formato della soluzione:</label> 
+             <label for="out_solformat"> Solution format:</label> 
              <select class="form-control" name="out_solformat" id="out_solformat" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="llh" > llh </option>
@@ -202,12 +202,12 @@
 				 <option name="tipo_segn" value="enu" > enu </option>             
              <option name="tipo_segn" value="nmea" > nmea </option>
          	 </select>            
-					<small id="emailHelp" class="form-text text-muted">selezionare il sistema di navigazione.</small>        
+					<small id="emailHelp" class="form-text text-muted">Select solution format.</small>        
         </div>  
  
       
         <div class="form-group col">
-              <label for="out_timesys"> Sistema di riferimento temporale:</label> 
+              <label for="out_timesys"> Temporal reference frame:</label> 
              <select class="form-control" name="out_timesys" id="out_timesys" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="gpst" > gpst </option>
@@ -215,7 +215,7 @@
 				 <option name="tipo_segn" value="jst" > jst</option>             
      
 				 </select>            
-					<small id="emailHelp" class="form-text text-muted">selezionare il sistema di riferimento per il tempo.</small>        
+					<small id="emailHelp" class="form-text text-muted">Select temporal reference frame.</small>        
         </div>     
       
 
@@ -223,13 +223,13 @@
 		
 		<div class="row">
 		<div class="form-group col">
-		<label for="out_timeform"> Formato del tempo:</label> 
+		<label for="out_timeform"> Time format:</label> 
              <select class="form-control" name="out_timeform" id="out_timeform" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="tow" > tow </option>
              <option name="tipo_segn" value="hms" > hms </option>
 				 </select>            
-					<small id="emailHelp" class="form-text text-muted">selezionare il formato del tempo.</small>
+					<small id="emailHelp" class="form-text text-muted">Select time format.</small>
 		
 		</div>		
 				
@@ -239,18 +239,18 @@
 		
 		
 		<div class="form-group col">
-		<label for="out_height"> Formato della quota:</label> 
+		<label for="out_height"> Height format:</label> 
              <select class="form-control" name="out_height" id="out_height" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="ellipsoidal" > ellipsoidal </option>
              <option name="tipo_segn" value="geodetic" > geodetic </option>
 				 </select>            
-					<small id="emailHelp" class="form-text text-muted">selezionare il formato della quota.</small>
+					<small id="emailHelp" class="form-text text-muted">Select height format.</small>
 		
 		</div>		
 		
 		<div class="form-group col">
-		<label for="out_geoid"> Geoide:</label> 
+		<label for="out_geoid"> Geoid:</label> 
              <select class="form-control" name="out_geoid" id="out_geoid" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="internal" > internal </option>
@@ -260,11 +260,11 @@
              <option name="tipo_segn" value="gsi2000" > gsi2000 </option>
             
          	 </select>            
-					<small id="emailHelp" class="form-text text-muted">Selezionare il modello del Geoide</small>
+					<small id="emailHelp" class="form-text text-muted">Select the Geoid model </small>
 		
 		</div>		
 		<div class="form-group col">
-		<label for="outstr1_format"> Formato del file di output:</label> 
+		<label for="outstr1_format"> Output file format:</label> 
              <select class="form-control" name="outstr1_format" id="outstr1_format" required="" >
              <!-- <option name="tipo_segn" value="" >   </option> -->
              <option name="tipo_segn" value="llh" > llh </option>
@@ -273,7 +273,7 @@
              <option name="tipo_segn" value="nmea" > nmea </option>
             
          	 </select>            
-					<small id="emailHelp" class="form-text text-muted">Selezionare il formato del file di output</small>
+					<small id="emailHelp" class="form-text text-muted">Select output file format</small>
 		
 		</div>	
 	
@@ -286,7 +286,7 @@
 		<div class="col"> </div>
 		<div class="col"> </div>
 		<div class="col"> 
-		<br><button type="submit" class="btn btn-primary"> <i class="fas fa-play"></i> sottometti configurazione e procedi </button>
+		<br><button type="submit" class="btn btn-primary"> <i class="fas fa-play"></i> submit configuration and proceed </button>
 
 		</div>
 		<div class="col"> </div>
