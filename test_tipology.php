@@ -10,8 +10,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width,  user-scalable=no"> 
-        
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
        
@@ -32,7 +31,7 @@
         </script>
 
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
+        <link href="/css/stile.css" rel="stylesheet">
 
 
         <link rel="stylesheet" href="../webservice/bootstrap/dist/css/bootstrap.min.css">
@@ -50,64 +49,53 @@
 
         <title></title>
     </head>
-    <body style="background-color: #e3f2fd;">
-	<div class="container" >
-	 <!-- <div class="row"> -->
-		<!-- <div class="col-2"> </div> -->
-	<!-- 	<div class="col-8"> -->
+    <body style="background-color: #e3f2fd; height = 100vh">
+	<div class="container">
 
-<div style="text-align: center;"><div class=" pagina-header font-weight-bold "><h1> Test environment for GNSS mass-market receivers </h1></div></div>
-		<!--  </div> -->
-		<!-- <div class="col-2"> </div> -->
-		<!-- </div> -->
     
+       <div class="row">
+		<div class="col-2"> </div>
+		<div class="col-8">
+		<div style="text-align: center;"><h1> Test typology </h1></div>
+		 </div>
+		<div class="col-2"> </div>
+		</div>
+        
+    <div class="row">
+			<br><article>
+      You can choose between 2 typologies:
+<br><ul>
+<li> Raw data acquisition
+<li> RTK
+</ul> 
+
+<br> In the first modality you will get raw observation form the receiver in both ubx and RINEX format
+
+<br> In the second modality you can set the receiver configuration and perform a nrtk positioning having the antenna fixed in a well know coordinates point.
+
+			</article>        
      
-      <br> <div class="row"  >  
+    </div>
+       
+   <br> <div class="row"  >  
 		<!-- <div class="col-1">
 		</div> -->
+		
 		<div class="col">		
-	
-  <button onClick="location.href='scopo_progetto.php'"class="btn btn-primary btn-lg btn-block" > purpose of the project </button>    	
-	
-	   <br><button onClick="location.href='monografia.php'"class="btn btn-primary btn-lg btn-block"> stations monograph </button>    
-
-      
-      <br><button onClick="location.href='costruisci_stazione.php'"class="btn btn-primary btn-lg btn-block"> build your own station </button>
-		
-	   <br><button onClick="location.href='set_up_test.php'"class="btn btn-primary btn-lg btn-block"> start your test </button>    
-     
-      
-		
-		<br><button onClick="location.href='risultati_test.php'"class="btn btn-primary btn-lg btn-block"> about the results </button>    
- 
- 		
-    	</div>
-    
-      <div class="col">
-<div style="text-align: center;"><img src="./img/stazione_home.png" height="350" alt="errore: non carica immagine">  </div>
-      </div>
-     </div>
-   <div class="row">
-		<div class="col">
-<div style="text-align: center;">		<a href="https://www.gter.it/" target="_blank"><img src="./img/Gter_logo.png" width="250" hspace="100" alt="" > </a> <a href="https://www.dibris.unige.it/en" target="_blank"><img src="./img/Dibris_orizzontale.png" width="450" hspace="100" alt="" >  </a>  </div>
+  				<button onClick="location.href='scopo_progetto.php'"class="btn btn-primary btn-lg btn-block" > Raw data acquisition </button> 
       </div>
       
-    </div>   
-    </div>
-    <br>
-
-    
-   <div class="row">
-		<div class="col">
-<div style="text-align: center;">		<a href="http://www3.dicca.unige.it/geomatica/ricerca/" target="_blank"><img src="./img/logolab.png" width="120" hspace="150" alt="" > </a> <a href="https://www.dicca.unige.it/" target="_blank"><img src="./img/logodicca.png" width="200" hspace="150" alt="" >  </a>  </div>
-      </div>
+		<div class="col">		
+  				<button onClick="location.href='set_up_test.php'"class="btn btn-primary btn-lg btn-block" > NRTK </button> 
+      </div>      
       
-    </div>   
-    </div>
-    <br>  
-    
-  <!-- Footer -->
-<footer class="page-footer font-small" style="background-color:#bcd1de;
+       </div>
+       
+           <br><div style="text-align: center;"><button type="submit" onClick="location.href='index.php'" class="btn btn-primary">  <i class="fas fa-home"></i> home </button>     </div>	    
+       		<br><div class="row">  </div> 
+       </div>   
+ <!-- Footer -->
+<footer class="page-footer font-small" style="background-color:#bcd1de; position: absolute;
     width: 100vw;
     bottom: 0vh;">
     <!-- Footer Elements -->
@@ -159,7 +147,7 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3"> Website created with 
+    <div class="footer-copyright text-center py-3"> Website created with  
       <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>   
@@ -170,12 +158,14 @@
   </div>
   </footer>
   <!-- Footer -->
+   
+  
+    
 
     
-    
-    </body>
-    
+     </body>
 </html>
+
 
 
 <?php

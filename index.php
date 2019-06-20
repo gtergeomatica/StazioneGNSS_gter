@@ -74,7 +74,7 @@
       
       <br><button onClick="location.href='costruisci_stazione.php'"class="btn btn-primary btn-lg btn-block"> build your own station </button>
 		
-	   <br><button onClick="location.href='set_up_test.php'"class="btn btn-primary btn-lg btn-block"> start your test </button>    
+	   <br><button onClick="location.href='test_tipology.php'"class="btn btn-primary btn-lg btn-block"> start your test </button>    
      
       
 		
